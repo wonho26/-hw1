@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <rect width="720" height="420" fill="#fbfbf9"/>
+  <text x="20.0" y="30.0" font-size="16" fill="#24292f" text-anchor="start" font-weight="600">서로 다른 key 개수에 따른 재귀 깊이 — 로그-로그 축</text>
+  <text x="20.0" y="50.0" font-size="11.5" fill="#6e7781" text-anchor="start" font-weight="400">n = 32,000 · 병합은 log n으로 고정, 힙은 1, 퀵은 key가 2종이면 16,000까지 간다</text>
+  <line x1="78.0" y1="362.0" x2="696.0" y2="362.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="366.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">1</text>
+  <line x1="78.0" y1="307.2" x2="696.0" y2="307.2" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="311.2" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">10</text>
+  <line x1="78.0" y1="252.4" x2="696.0" y2="252.4" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="256.4" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">100</text>
+  <line x1="78.0" y1="197.6" x2="696.0" y2="197.6" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="201.6" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">1K</text>
+  <line x1="78.0" y1="142.8" x2="696.0" y2="142.8" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="146.8" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">10K</text>
+  <line x1="78.0" y1="88.0" x2="696.0" y2="88.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="92.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">100K</text>
+  <line x1="78.0" y1="88.0" x2="78.0" y2="362.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="78.0" y="380.0" font-size="10.5" fill="#6e7781" text-anchor="middle" font-weight="400">2</text>
+  <line x1="166.3" y1="88.0" x2="166.3" y2="362.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="166.3" y="380.0" font-size="10.5" fill="#6e7781" text-anchor="middle" font-weight="400">8</text>
+  <line x1="298.7" y1="88.0" x2="298.7" y2="362.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="298.7" y="380.0" font-size="10.5" fill="#6e7781" text-anchor="middle" font-weight="400">64</text>
+  <line x1="431.1" y1="88.0" x2="431.1" y2="362.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="431.1" y="380.0" font-size="10.5" fill="#6e7781" text-anchor="middle" font-weight="400">512</text>
+  <line x1="563.6" y1="88.0" x2="563.6" y2="362.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="563.6" y="380.0" font-size="10.5" fill="#6e7781" text-anchor="middle" font-weight="400">4,096</text>
+  <line x1="696.0" y1="88.0" x2="696.0" y2="362.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="696.0" y="380.0" font-size="10.5" fill="#6e7781" text-anchor="middle" font-weight="400">32,768</text>
+  <line x1="78.0" y1="362.0" x2="696.0" y2="362.0" stroke="#6e7781" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="78.0" y1="88.0" x2="78.0" y2="362.0" stroke="#6e7781" stroke-width="1" stroke-dasharray="none"/>
+  <text x="387.0" y="406.0" font-size="11.5" fill="#6e7781" text-anchor="middle" font-weight="400">서로 다른 key 개수</text>
+  <text x="20.0" y="70.0" font-size="11.5" fill="#6e7781" text-anchor="start" font-weight="400">재귀 깊이</text>
+  <polyline points="78.0,296.0 166.3,296.0 298.7,296.0 431.1,296.0 563.6,296.0 696.0,296.0" fill="none" stroke="#0072B2" stroke-width="2.2" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="78.0" cy="296.0" r="3.4" fill="#0072B2"/>
+  <circle cx="166.3" cy="296.0" r="3.4" fill="#0072B2"/>
+  <circle cx="298.7" cy="296.0" r="3.4" fill="#0072B2"/>
+  <circle cx="431.1" cy="296.0" r="3.4" fill="#0072B2"/>
+  <circle cx="563.6" cy="296.0" r="3.4" fill="#0072B2"/>
+  <circle cx="696.0" cy="296.0" r="3.4" fill="#0072B2"/>
+  <polyline points="78.0,131.4 166.3,164.0 298.7,211.4 431.1,253.1 563.6,273.0 696.0,278.1" fill="none" stroke="#E69F00" stroke-width="2.2" stroke-dasharray="7 4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="78.0" cy="131.4" r="3.4" fill="#E69F00"/>
+  <circle cx="166.3" cy="164.0" r="3.4" fill="#E69F00"/>
+  <circle cx="298.7" cy="211.4" r="3.4" fill="#E69F00"/>
+  <circle cx="431.1" cy="253.1" r="3.4" fill="#E69F00"/>
+  <circle cx="563.6" cy="273.0" r="3.4" fill="#E69F00"/>
+  <circle cx="696.0" cy="278.1" r="3.4" fill="#E69F00"/>
+  <polyline points="78.0,362.0 166.3,362.0 298.7,362.0 431.1,362.0 563.6,362.0 696.0,362.0" fill="none" stroke="#009E73" stroke-width="2.2" stroke-dasharray="2 3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="78.0" cy="362.0" r="3.4" fill="#009E73"/>
+  <circle cx="166.3" cy="362.0" r="3.4" fill="#009E73"/>
+  <circle cx="298.7" cy="362.0" r="3.4" fill="#009E73"/>
+  <circle cx="431.1" cy="362.0" r="3.4" fill="#009E73"/>
+  <circle cx="563.6" cy="362.0" r="3.4" fill="#009E73"/>
+  <circle cx="696.0" cy="362.0" r="3.4" fill="#009E73"/>
+  <line x1="78.0" y1="386.0" x2="100.0" y2="386.0" stroke="#0072B2" stroke-width="2.4" stroke-dasharray="none"/>
+  <circle cx="89.0" cy="386.0" r="3" fill="#0072B2"/>
+  <text x="106.0" y="390.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">mergeSort</text>
+  <line x1="183.4" y1="386.0" x2="205.4" y2="386.0" stroke="#E69F00" stroke-width="2.4" stroke-dasharray="7 4"/>
+  <circle cx="194.4" cy="386.0" r="3" fill="#E69F00"/>
+  <text x="211.4" y="390.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">quickSort</text>
+  <line x1="288.8" y1="386.0" x2="310.8" y2="386.0" stroke="#009E73" stroke-width="2.4" stroke-dasharray="2 3"/>
+  <circle cx="299.8" cy="386.0" r="3" fill="#009E73"/>
+  <text x="316.8" y="390.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">heapSort</text>
+</svg>
