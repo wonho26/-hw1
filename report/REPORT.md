@@ -2,7 +2,7 @@
 
 2026-2 고급알고리즘 과제 1 · 이원호 (2026193026) · 2026-09-30
 
-- **GitHub 저장소**: GITHUB_URL
+- **GitHub 저장소**: https://github.com/wonho26/-hw1
 - 실행: `make test` (유닛 테스트 45개) · `make run` (비교 표) · `make charts` (측정을 다시 돌려 그래프를 새로 그림)
 - 환경: 컨테이너 안 `gcc -std=c17 -Wall -Wextra -O2`, 원소는 `(key, tag)` 8바이트
 
